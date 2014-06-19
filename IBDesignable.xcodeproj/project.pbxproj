@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2EC54E19536B9B00B64831 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC321F0195367B8003BB6D7 /* DesignableView.swift */; };
+		EF32072819536B030012DC22 /* DesignableViews.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32072719536B030012DC22 /* DesignableViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32072E19536B030012DC22 /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32072319536B030012DC22 /* DesignableViews.framework */; };
+		EF32073519536B030012DC22 /* DesignableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF32073419536B030012DC22 /* DesignableViewsTests.swift */; };
+		EF32073819536B030012DC22 /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32072319536B030012DC22 /* DesignableViews.framework */; };
+		EF32073919536B030012DC22 /* DesignableViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF32072319536B030012DC22 /* DesignableViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EFC321D419536790003BB6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC321D319536790003BB6D7 /* AppDelegate.swift */; };
 		EFC321D619536790003BB6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC321D519536790003BB6D7 /* ViewController.swift */; };
 		EFC321D919536790003BB6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC321D719536790003BB6D7 /* Main.storyboard */; };
 		EFC321DB19536790003BB6D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC321DA19536790003BB6D7 /* Images.xcassets */; };
 		EFC321E719536790003BB6D7 /* IBDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC321E619536790003BB6D7 /* IBDesignableTests.swift */; };
+		EFE81BA219536D5C003E8380 /* checkers.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE81BA119536D5C003E8380 /* checkers.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EF2EC54F19536BEF00B64831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32072219536B030012DC22;
+			remoteInfo = DesignableViews;
+		};
+		EF32072F19536B030012DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32072219536B030012DC22;
+			remoteInfo = DesignableViews;
+		};
+		EF32073619536B030012DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32072219536B030012DC22;
+			remoteInfo = DesignableViews;
+		};
+		EF32073A19536B030012DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32072219536B030012DC22;
+			remoteInfo = DesignableViews;
+		};
+		EF32074319536B040012DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32072219536B030012DC22;
+			remoteInfo = DesignableViews;
+		};
 		EFC321E119536790003BB6D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EFC321C619536790003BB6D7 /* Project object */;
@@ -24,7 +66,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EF32074119536B030012DC22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF32073919536B030012DC22 /* DesignableViews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EF32072319536B030012DC22 /* DesignableViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignableViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32072619536B030012DC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF32072719536B030012DC22 /* DesignableViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignableViews.h; sourceTree = "<group>"; };
+		EF32072D19536B030012DC22 /* DesignableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32073319536B030012DC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF32073419536B030012DC22 /* DesignableViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViewsTests.swift; sourceTree = "<group>"; };
 		EFC321CE19536790003BB6D7 /* IBDesignable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBDesignable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC321D219536790003BB6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC321D319536790003BB6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,13 +96,31 @@
 		EFC321E019536790003BB6D7 /* IBDesignableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC321E519536790003BB6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC321E619536790003BB6D7 /* IBDesignableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableTests.swift; sourceTree = "<group>"; };
+		EFC321F0195367B8003BB6D7 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = ../IBDesignable/DesignableView.swift; sourceTree = "<group>"; };
+		EFE81BA119536D5C003E8380 /* checkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkers.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF32071F19536B030012DC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32072A19536B030012DC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32072E19536B030012DC22 /* DesignableViews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC321CB19536790003BB6D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF32073819536B030012DC22 /* DesignableViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,11 +134,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF32072419536B030012DC22 /* DesignableViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFC321F0195367B8003BB6D7 /* DesignableView.swift */,
+				EF32072719536B030012DC22 /* DesignableViews.h */,
+				EF32072519536B030012DC22 /* Supporting Files */,
+			);
+			path = DesignableViews;
+			sourceTree = "<group>";
+		};
+		EF32072519536B030012DC22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF32072619536B030012DC22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF32073119536B030012DC22 /* DesignableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF32073419536B030012DC22 /* DesignableViewsTests.swift */,
+				EF32073219536B030012DC22 /* Supporting Files */,
+			);
+			path = DesignableViewsTests;
+			sourceTree = "<group>";
+		};
+		EF32073219536B030012DC22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF32073319536B030012DC22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EFC321C519536790003BB6D7 = {
 			isa = PBXGroup;
 			children = (
 				EFC321D019536790003BB6D7 /* IBDesignable */,
 				EFC321E319536790003BB6D7 /* IBDesignableTests */,
+				EF32072419536B030012DC22 /* DesignableViews */,
+				EF32073119536B030012DC22 /* DesignableViewsTests */,
 				EFC321CF19536790003BB6D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +185,8 @@
 			children = (
 				EFC321CE19536790003BB6D7 /* IBDesignable.app */,
 				EFC321E019536790003BB6D7 /* IBDesignableTests.xctest */,
+				EF32072319536B030012DC22 /* DesignableViews.framework */,
+				EF32072D19536B030012DC22 /* DesignableViewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +194,7 @@
 		EFC321D019536790003BB6D7 /* IBDesignable */ = {
 			isa = PBXGroup;
 			children = (
+				EFE81BA119536D5C003E8380 /* checkers.png */,
 				EFC321D319536790003BB6D7 /* AppDelegate.swift */,
 				EFC321D519536790003BB6D7 /* ViewController.swift */,
 				EFC321D719536790003BB6D7 /* Main.storyboard */,
@@ -111,7 +231,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EF32072019536B030012DC22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32072819536B030012DC22 /* DesignableViews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		EF32072219536B030012DC22 /* DesignableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32074019536B030012DC22 /* Build configuration list for PBXNativeTarget "DesignableViews" */;
+			buildPhases = (
+				EF32071E19536B030012DC22 /* Sources */,
+				EF32071F19536B030012DC22 /* Frameworks */,
+				EF32072019536B030012DC22 /* Headers */,
+				EF32072119536B030012DC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignableViews;
+			productName = DesignableViews;
+			productReference = EF32072319536B030012DC22 /* DesignableViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF32072C19536B030012DC22 /* DesignableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32074219536B030012DC22 /* Build configuration list for PBXNativeTarget "DesignableViewsTests" */;
+			buildPhases = (
+				EF32072919536B030012DC22 /* Sources */,
+				EF32072A19536B030012DC22 /* Frameworks */,
+				EF32072B19536B030012DC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF32073019536B030012DC22 /* PBXTargetDependency */,
+				EF32074419536B040012DC22 /* PBXTargetDependency */,
+				EF2EC55019536BEF00B64831 /* PBXTargetDependency */,
+			);
+			name = DesignableViewsTests;
+			productName = DesignableViewsTests;
+			productReference = EF32072D19536B030012DC22 /* DesignableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EFC321CD19536790003BB6D7 /* IBDesignable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC321EA19536790003BB6D7 /* Build configuration list for PBXNativeTarget "IBDesignable" */;
@@ -119,10 +288,13 @@
 				EFC321CA19536790003BB6D7 /* Sources */,
 				EFC321CB19536790003BB6D7 /* Frameworks */,
 				EFC321CC19536790003BB6D7 /* Resources */,
+				EF32074119536B030012DC22 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EF32073719536B030012DC22 /* PBXTargetDependency */,
+				EF32073B19536B030012DC22 /* PBXTargetDependency */,
 			);
 			name = IBDesignable;
 			productName = IBDesignable;
@@ -156,6 +328,13 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Learn Swift";
 				TargetAttributes = {
+					EF32072219536B030012DC22 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF32072C19536B030012DC22 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EF32072219536B030012DC22;
+					};
 					EFC321CD19536790003BB6D7 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -180,17 +359,34 @@
 			targets = (
 				EFC321CD19536790003BB6D7 /* IBDesignable */,
 				EFC321DF19536790003BB6D7 /* IBDesignableTests */,
+				EF32072219536B030012DC22 /* DesignableViews */,
+				EF32072C19536B030012DC22 /* DesignableViewsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF32072119536B030012DC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32072B19536B030012DC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC321CC19536790003BB6D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EFC321D919536790003BB6D7 /* Main.storyboard in Resources */,
 				EFC321DB19536790003BB6D7 /* Images.xcassets in Resources */,
+				EFE81BA219536D5C003E8380 /* checkers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +400,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF32071E19536B030012DC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2EC54E19536B9B00B64831 /* DesignableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32072919536B030012DC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32073519536B030012DC22 /* DesignableViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC321CA19536790003BB6D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +436,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EF2EC55019536BEF00B64831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32072219536B030012DC22 /* DesignableViews */;
+			targetProxy = EF2EC54F19536BEF00B64831 /* PBXContainerItemProxy */;
+		};
+		EF32073019536B030012DC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32072219536B030012DC22 /* DesignableViews */;
+			targetProxy = EF32072F19536B030012DC22 /* PBXContainerItemProxy */;
+		};
+		EF32073719536B030012DC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32072219536B030012DC22 /* DesignableViews */;
+			targetProxy = EF32073619536B030012DC22 /* PBXContainerItemProxy */;
+		};
+		EF32073B19536B030012DC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32072219536B030012DC22 /* DesignableViews */;
+			targetProxy = EF32073A19536B030012DC22 /* PBXContainerItemProxy */;
+		};
+		EF32074419536B040012DC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32072219536B030012DC22 /* DesignableViews */;
+			targetProxy = EF32074319536B040012DC22 /* PBXContainerItemProxy */;
+		};
 		EFC321E219536790003BB6D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EFC321CD19536790003BB6D7 /* IBDesignable */;
@@ -243,6 +480,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF32073C19536B030012DC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignableViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF32073D19536B030012DC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DesignableViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF32073E19536B030012DC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF32073F19536B030012DC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFC321E819536790003BB6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +694,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF32074019536B030012DC22 /* Build configuration list for PBXNativeTarget "DesignableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32073C19536B030012DC22 /* Debug */,
+				EF32073D19536B030012DC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF32074219536B030012DC22 /* Build configuration list for PBXNativeTarget "DesignableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32073E19536B030012DC22 /* Debug */,
+				EF32073F19536B030012DC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFC321C919536790003BB6D7 /* Build configuration list for PBXProject "IBDesignable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -399,6 +728,7 @@
 				EFC321EC19536790003BB6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC321ED19536790003BB6D7 /* Build configuration list for PBXNativeTarget "IBDesignableTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +737,7 @@
 				EFC321EF19536790003BB6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
